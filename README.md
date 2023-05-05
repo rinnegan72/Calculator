@@ -1,10 +1,10 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Calculator APP
+This is a react project that contains a simple calculator
+![image](https://user-images.githubusercontent.com/69243366/236447915-2a63adcf-5e4c-48a3-8208-67f074857f53.png)
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the client directory, you can run:
 
 ### `npm start`
 
