@@ -1,5 +1,6 @@
 # Calculator APP
 This is a react project that contains a simple calculator
+
 ![image](https://user-images.githubusercontent.com/69243366/236447915-2a63adcf-5e4c-48a3-8208-67f074857f53.png)
 
 ## Available Scripts
