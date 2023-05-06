@@ -11,6 +11,7 @@
     "@types/react": "^18.2.4",
     "@types/react-dom": "^18.2.3",
     "bootstrap": "^5.2.3",
+    "eslint-plugin-react-hooks": "^5.0.0-canary-efb381bbf-20230505",
     "mathjs": "^11.8.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
