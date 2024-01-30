@@ -1,0 +1,7 @@
+releases:
+  - name: calc-app
+    namespace: default
+    chart: ./mychart
+    version: 1.0.0
+    values:
+      - ./mychart/values.yaml
