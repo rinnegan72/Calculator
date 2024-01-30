@@ -1,0 +1,11 @@
+replicaCount: 3
+
+image:
+  repository: sriram312vananam/calculator
+  tag: 1.3
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 80

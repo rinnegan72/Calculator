@@ -1,0 +1,4 @@
+apiVersion: v2
+name: calc-app
+description: A Helm chart for the calc-app application
+version: 1.0.0
