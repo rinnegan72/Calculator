@@ -22,6 +22,7 @@ function Calculator() {
         setInput("");
     };
 
+    
     const handleDelete = () => {
         setInput((prevInput) => prevInput.slice(0, -1));
     };
