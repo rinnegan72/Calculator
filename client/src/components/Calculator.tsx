@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import { create, all } from 'mathjs';
-
+import { clarity } from 'react-microsoft-clarity';
 const config = { };
 const math = create(all, config);
 
@@ -10,6 +10,9 @@ function Calculator() {
     const [result, setResult] = useState(0);
     const [input, setInput] = useState("");
 
+    useEffect(() => {
+        clarity.init('leygopztg8');
+    }, []);
 
     const handleClick = (value: any) => {
         console.log("input before", input, "value  ", value)
@@ -22,7 +25,7 @@ function Calculator() {
         setInput("");
     };
 
-    
+
     const handleDelete = () => {
         setInput((prevInput) => prevInput.slice(0, -1));
     };
